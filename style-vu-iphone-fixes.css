@@ -1,0 +1,10 @@
+@media only screen and (orientation: portrait) {
+	.appContainer {
+		height: 568px;
+	}
+}
+@media only screen and (orientation: landscape) {
+	.appContainer {
+		height: 320px;
+	}
+}

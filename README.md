@@ -1,4 +1,4 @@
-# viewport_units_polyfill
+# Viewport Units Polyfill
 A pure css solution for IOS 5/6's incomplete implementation of vw/vh units
 
 ## References

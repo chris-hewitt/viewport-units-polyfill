@@ -6,14 +6,11 @@ A pure css solution for iOS 5/6/7's incomplete implementation of vw/vh units. Th
 * https://webdesignerwall.com/tutorials/css-fix-for-ios-vh-unit-bug
 
 ## Usage
-### Platforms
-PHP 5.x and higher
-### Dependencies
-None
-### Examples
-#### Native PHP
+**Platforms:** PHP 5.x and higher
+**Dependencies**: None
+### Native PHP Example
 a
-#### WordPress
+#### WordPress Example
 b
 
 ## Alternative Solutions

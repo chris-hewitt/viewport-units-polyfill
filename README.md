@@ -5,10 +5,16 @@ A pure css solution for iOS 5/6/7's incomplete implementation of vw/vh units. Th
 * https://caniuse.com/#feat=viewport-units
 * https://webdesignerwall.com/tutorials/css-fix-for-ios-vh-unit-bug
 
-## Platforms
+## Usage
+### Platforms
 PHP 5.x and higher
-
-No dependencies
+### Dependencies
+None
+### Examples
+#### Native PHP
+a
+#### WordPress
+b
 
 ## Alternative Solutions
 [viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - a client-side implementation. Will not work before the js file is loaded and parsed, or if js is disabled.

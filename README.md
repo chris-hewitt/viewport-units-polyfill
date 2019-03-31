@@ -10,6 +10,11 @@ PHP 5.x and higher
 
 No dependencies
 
+## Alternative Solutions
+[viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - a client-side implementation. Will not work before the js file is loaded and parsed, or if js is disabled.
+
+https://gist.github.com/pburtchaell/e702f441ba9b3f76f587 - uses media queries only, no user agent sniffing
+
 ## Changelog
 
 ### 2017-10-20
@@ -22,8 +27,3 @@ Upload as a public repository
 Also address vh value jump bug/feature in modern mobile browsers - ref:
 * https://stackoverflow.com/q/37112218
 * https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
-
-## Alternative Solutions
-[viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - a client-side implementation. Will not work before the js file is loaded and parsed, or if js is disabled.
-
-https://gist.github.com/pburtchaell/e702f441ba9b3f76f587 - uses media queries only, no user agent sniffing

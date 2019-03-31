@@ -1,5 +1,5 @@
 # Viewport Units Polyfill
-A pure css solution for IOS 5/6's incomplete implementation of vw/vh units
+A pure css solution for IOS 5/6/7's incomplete implementation of vw/vh units. This layout-breaking bug is separate from the \[relatively minor\] address bar shown/hidden discrepancy described in Future Work.
 
 ## References
 * https://caniuse.com/#feat=viewport-units

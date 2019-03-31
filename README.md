@@ -8,11 +8,17 @@ A pure css solution for iOS 5/6/7's incomplete implementation of vw/vh units. Th
 ## Usage
 **Platforms:** PHP 5.x and higher
 **Dependencies**: None
-### Native PHP Example
-a
-#### WordPress Example
-b
-
+### WordPress Example
+```php
+if (is_old_iphone($_SERVER['HTTP_USER_AGENT'])) {
+	
+	wp_enqueue_style( 'vu-iphone-fixes', get_template_directory_uri() . '/style-vu-iphone-fixes.css' );
+	
+} else if (is_old_ipad($_SERVER['HTTP_USER_AGENT'])) {
+	
+	wp_enqueue_style( 'vu-iphone-fixes', get_template_directory_uri() . '/style-vu-ipad-fixes.css' );
+}
+```
 ## Alternative Solutions
 [viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - a client-side implementation. Will not work before the js file is loaded and parsed, or if js is disabled.
 

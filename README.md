@@ -20,9 +20,9 @@ if (is_old_iphone($_SERVER['HTTP_USER_AGENT'])) {
 }
 ```
 ## Alternative Solutions
-[viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - a client-side implementation. Will not work before the js file is loaded and parsed, or if js is disabled.
+[viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - A client-side implementation. Will not work before the js file is loaded and parsed, or if js is disabled.
 
-https://gist.github.com/pburtchaell/e702f441ba9b3f76f587 - uses media queries only, no user agent sniffing
+https://gist.github.com/pburtchaell/e702f441ba9b3f76f587 - Uses media queries only, no user agent sniffing. May inadvertently trigger on future devices with the same media dimensions.
 
 ## Changelog
 

@@ -1,5 +1,5 @@
 /*
-	Example usage:
+	Example WordPress usage:
 	
 	if (is_old_iphone($_SERVER['HTTP_USER_AGENT'])) {
 	
@@ -39,4 +39,9 @@ function is_old_ipad($userAgentString) {
 	}
 
 	return false;
+}
+
+function function stringStartsWith($haystack, $needle) {
+
+	return !strncmp($haystack, $needle, strlen($needle));
 }

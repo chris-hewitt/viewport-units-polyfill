@@ -6,8 +6,8 @@ A pure css solution for iOS 5/6/7's incomplete implementation of vw/vh units. Th
 * https://webdesignerwall.com/tutorials/css-fix-for-ios-vh-unit-bug
 
 ## Usage
-**Platforms:** PHP 5.x and higher\
-**Dependencies**: None\
+**Platforms:** PHP 5.x and higher  
+**Dependencies**: None
 ### WordPress Example
 ```php
 if (is_old_iphone($_SERVER['HTTP_USER_AGENT'])) {
